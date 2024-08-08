@@ -12,10 +12,10 @@ refresh = 300
 
 # Choose which side of mission to enable auto refresh
 left = 1
-right = 0
+right = 1
 
 # File path
-os.chdir('D:\GitHub\Whiteout-Survival')
+os.chdir('D:\GitHub\Whiteout-Survival\Alliance Mobilization')
 
 # Load mission images
 mission_1 = cv2.imread('target_mission_1.png', cv2.IMREAD_GRAYSCALE)
